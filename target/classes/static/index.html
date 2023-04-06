@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎页面</title>
+</head>
+<body>
+    <h1>欢迎</h1>
+    <form action="/user" method="get">
+        <input value="get" type="submit">
+    </form>
+    <form action="/user" method="post">
+        <input value="post" type="submit">
+    </form>
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="DELETE" >
+        <input value="del" type="submit">
+    </form>
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="PUT" >
+        <input value="put" type="submit">
+    </form>
+</body>
+</html>
